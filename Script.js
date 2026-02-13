@@ -47,16 +47,16 @@ envelope.onclick = () => {
 /* ========= SLIDES ========= */
 
 const slides = [
- {img:"./src/1.jpeg", cap:"Our first little moment 💗"},
- {img:"./src/2.jpeg", cap:"Your smile"},
- {img:"./src/10.jpeg", cap:"My favorite person"},
- {img:"./src/3.jpeg", cap:"Laughs we shared"},
- {img:"./src/7.jpeg", cap:"You + this moment = ❤️"},
- {img:"./src/4.jpeg", cap:"Still my favorite"},
- {img:"./src/5.png", cap:"Every year with you"},
- {img:"./src/8.jpeg", cap:"My comfort place"},
- {img:"./src/9.jpeg", cap:"This still makes me smile"},
- {img:"./src/6.jpeg", cap:"thankyou for being my valentine again this year — I love you so much ❤️"}
+ {img:"src/1.jpeg", cap:"Our first little moment 💗"},
+ {img:"src/2.jpeg", cap:"Your smile"},
+ {img:"src/10.jpeg", cap:"My favorite person"},
+ {img:"src/3.jpeg", cap:"Laughs we shared"},
+ {img:"src/7.jpeg", cap:"You + this moment = ❤️"},
+ {img:"src/4.jpeg", cap:"Still my favorite"},
+ {img:"src/5.png", cap:"Every year with you"},
+ {img:"src/8.jpeg", cap:"My comfort place"},
+ {img:"src/9.jpeg", cap:"This still makes me smile"},
+ {img:"src/6.jpeg", cap:"thankyou for being my valentine again this year — I love you so much ❤️"}
 ];
 
 let index = 0;
