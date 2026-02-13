@@ -19,6 +19,8 @@ every memory.
 Every year with you
 still feels special.`;
 
+const fadeOverlay = document.getElementById("fadeOverlay");
+
 let i = 0;
 function typeWriter(){
   if(i < message.length){
@@ -112,8 +114,6 @@ function spawnBgHeart(){
 function startBackgroundHearts(){
   setInterval(spawnBgHeart, 300);
 }
-
-const fadeOverlay = document.getElementById("fadeOverlay");
 
 function fadeToDark(callback){
   fadeOverlay.style.opacity = "1";
