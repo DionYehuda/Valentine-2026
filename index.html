@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-pink-100 min-h-screen flex items-center justify-center overflow-hidden">
+
+    <audio id="bgm" loop>
+      <source src="./src/Musik2.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ENVELOPE -->
+    <div id="envelopeScreen" class="text-center">
+      <div id="envelope" class="cursor-pointer text-8xl hover:scale-110 transition">💌</div>
+      <p class="mt-6 text-xl text-pink-700">Click the letter</p>
+    </div>
+
+    <!-- LETTER -->
+    <div id="letterScreen" class="hidden max-w-xl mx-auto p-6">
+      <div class="bg-white rounded-2xl shadow-xl p-8">
+        <h2 class="text-2xl font-bold text-pink-600 mb-4">My Letter For You</h2>
+        <p id="letterText" class="text-gray-700 leading-relaxed min-h-[160px]"></p>
+
+        <button id="toGallery"
+          class="hidden mt-6 bg-pink-600 text-white px-6 py-3 rounded-xl hover:bg-pink-700">
+          Open Memories ❤️
+        </button>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div id="galleryScreen" class="hidden w-full max-w-4xl mx-auto p-4 relative z-10">
+
+    <img id="slideImg"
+    class="w-full h-[60vh] object-contain bg-black rounded-2xl shadow-xl cursor-pointer select-none">
+
+    <p id="slideCaption"
+    class="text-center mt-6 text-xl text-pink-700 font-semibold"></p>
+
+    <p class="text-center text-sm text-pink-500 mt-2">
+    click photo to go next 💗
+    </p>
+
+    </div>
+
+    <div id="fadeOverlay"
+      class="fixed inset-0 bg-black opacity-0 pointer-events-none transition-opacity duration-700 z-40">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
